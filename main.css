@@ -1,0 +1,52 @@
+/* HEADER STYLES */
+.top-header {
+  position: fixed;
+  width: 100vw;
+  background-color: grey;
+  height: 10vh;
+  flex: auto;
+}
+
+.top-header h1 {
+  color: white;
+  font-size: 3em;
+  width: 30vw;
+  padding: 3vh;
+}
+
+
+/* NAV STYLES */
+nav {
+  
+}
+
+.nav-bar li {
+  display: block;
+  float: right;
+  padding: 1em;
+}
+
+
+/* HERO STYLES */
+
+.hero-container {
+  padding-top: 10vh;
+}
+
+.full-hero {
+  background-image: url(http://placekitten.com/g/2400/1800);
+  background-size: cover;
+  background-position: center top;
+  height: 90vh;
+  box-sizing: border-box;
+}
+
+.hero-content {
+  position: relative;
+  top: 10%;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 5em;
+  background-color: grey;
+  transform: translate(0, -50%);
+}
