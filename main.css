@@ -41,8 +41,8 @@ width: 100%;
 }
 
 .hero-content {
-  padding: 5%;
   text-shadow: 0 2px 2px black;
+  margin-top: 3%;
 }
 
 .hero h1 {
