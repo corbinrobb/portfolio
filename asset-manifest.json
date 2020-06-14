@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.061a1a87.chunk.css",
+    "main.js": "/portfolio/static/js/main.acabd3ba.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.acabd3ba.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.fb1b3dac.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.fb1b3dac.js.map",
+    "static/js/2.90020b7f.chunk.js": "/portfolio/static/js/2.90020b7f.chunk.js",
+    "static/js/2.90020b7f.chunk.js.map": "/portfolio/static/js/2.90020b7f.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.f7d2582482e6e28f03a6f8cb42f9c496.js": "/portfolio/precache-manifest.f7d2582482e6e28f03a6f8cb42f9c496.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.061a1a87.chunk.css.map": "/portfolio/static/css/main.061a1a87.chunk.css.map",
+    "static/js/2.90020b7f.chunk.js.LICENSE.txt": "/portfolio/static/js/2.90020b7f.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/portfolio/static/media/fabian-grohs-dMUt0X3f59Q-unsplash.ffa58932.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fb1b3dac.js",
+    "static/js/2.90020b7f.chunk.js",
+    "static/css/main.061a1a87.chunk.css",
+    "static/js/main.acabd3ba.chunk.js"
+  ]
+}
