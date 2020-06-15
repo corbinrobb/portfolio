@@ -5,11 +5,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  max-width: 100%;
 }
 
 /* GENERAL STYLES */
 body {
   font-family: 'Nunito', sans-serif;
+  padding-top: 5vh;
 }
 
 a {
@@ -24,13 +26,15 @@ a:hover {
 /* NAV STYLES */
 nav {
   width: 100%;
+  position: fixed;
+  top: 0;
   height: 5vh;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   background-color: black;
-  padding: 2%;
-  box-shadow: 0 2px 8px black;
+  padding: 0 4rem;
+  box-shadow: 0 2px 8px grey;
 }
 
 nav a {
@@ -43,26 +47,39 @@ nav a {
   background-image: url('./images/fabian-grohs-dMUt0X3f59Q-unsplash.jpg');
   background-position: center;
   box-shadow: 2px 2px 8px grey;
-  width: 90%;
   padding: 3rem;
   background-color: white;
   margin: 0.5rem auto;
   display: flex;
-  min-height: 70vh;
+  align-items: center;
+  min-height: 93vh;
   font-size: 1.3rem;
   color: white;
   text-shadow: 1px 1px 3px black;
 }
 
+.header .down {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 2.5rem;
+}
 
-/* HOME STYLES */
 
-.home h2 {
+/* MAIN STYLES */
+main {
+  width: 90%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+main h2 {
   font-size: 3rem;
 }
 
 .container {
-  width: 90%;
   padding: 5%;
   background-color: lightgray;
   margin: 0 auto;
@@ -84,13 +101,59 @@ nav a {
   color: white;
 }
 
-.skills h3 {
+
+/* PROJECTS STYLES */
+.projects {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.projects > div {
+  background-color: white;
+  box-shadow: 2px 2px 8px grey;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-top: 2%;
+  width: 80%;
+  display: flex;
+}
+
+.project-details {
+  padding: 1rem;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 350px;
+  line-height: 2;
+}
+
+.project-links {
+  display: flex;
+  justify-content: space-around;
+}
+
+.projects img {
+  box-shadow: 2px 2px 8px grey;
+  width: 600px;
+  height: 350px;
+}
+
+.projects ul {
+  padding: 0 5%;
+}
+
+.skills {
+  background-color: white;
+}
+
+.skills h3, .projects h3, .about h3 {
   width: 100%;
   font-size: 1.4rem;
 }
 
 .skills h4 {
-  background-color: grey;
+  background-color: lightgray;
   margin: 2%;
   width: 45%;
   padding: 1%;
@@ -98,6 +161,16 @@ nav a {
   border-radius: 1rem;
   text-align: center;
   color: white;
+  text-shadow: 1px 1px 10px black;
   text-transform: uppercase;
   box-shadow: 2px 2px 8px grey;
+}
+
+.about p {
+  padding: 2% 0;
+}
+
+.footer {
+  padding: 2rem;
+  text-align: center;
 }
