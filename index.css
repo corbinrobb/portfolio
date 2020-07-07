@@ -43,7 +43,7 @@ nav a {
   margin-left: 5%;
 }
 
-.project-links a:hover, nav a:hover {
+nav a:hover, nav a:active {
   color: crimson;
 }
 
@@ -139,6 +139,21 @@ main h2 {
   justify-content: space-around;
 }
 
+.project-links a {
+  font-size: 1rem;
+  padding: .5rem;
+  border-radius: .5rem;
+  border: 1px solid lightgray;
+  box-shadow: 2px 2px 4px grey;
+}
+
+.project-links a:hover, .project-links a:active {
+  color: crimson;
+  cursor: pointer;
+  background-color: white;
+  box-shadow: 2px 2px 4px red;
+}
+
 .projects img {
   box-shadow: 2px 2px 8px grey;
   width: 750px;
@@ -148,6 +163,7 @@ main h2 {
 .projects ul {
   padding: 0 5%;
 }
+
 
 /* SKILLS STYLES */
 .skills {
@@ -204,6 +220,14 @@ main h2 {
 }
 
 @media only screen and (max-width: 920px) {
+  nav {
+    justify-content: space-evenly;
+  }
+
+  nav a {
+    margin: 0;
+  }
+
   .projects > div {
     flex-direction: column;
   }
