@@ -39,9 +39,19 @@ nav {
   z-index: 99;
 }
 
+nav p {
+  color: #fff;
+  position: absolute;
+  left: 20px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
 nav a {
   color: white;
   margin-left: 5%;
+  font-weight: bold;
+  font-size: 1.2rem;
 }
 
 nav a:hover, nav a:active {
@@ -77,9 +87,11 @@ nav a:hover, nav a:active {
 
 /* MAIN STYLES */
 main {
-  width: 98%;
+  width: 100%;
   max-width: 1440px;
   margin: 0 auto;
+  padding: 10px;
+  overflow: hidden;
 }
 
 main h2 {
