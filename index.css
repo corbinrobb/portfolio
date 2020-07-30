@@ -297,6 +297,10 @@ main h2 {
   nav a {
     margin: 0;
   }
+
+  nav p {
+    visibility: hidden;
+  }
   
   .header {
     padding: .5rem;
