@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
 
 /* RESET */
 * {
@@ -11,7 +11,7 @@
 
 /* GENERAL STYLES */
 body {
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   padding-top: 4rem;
 }
 
@@ -54,13 +54,14 @@ nav a {
   font-size: 1.2rem;
 }
 
-nav a:hover, nav a:active {
+nav a:hover,
+nav a:active {
   color: crimson;
 }
 
 /* HEADER STYLES */
 .header {
-  background-image: url('./images/fabian-grohs-dMUt0X3f59Q-unsplash.jpg');
+  background-image: url("./images/fabian-grohs-dMUt0X3f59Q-unsplash.jpg");
   background-position: center;
   box-shadow: 2px 2px 8px grey;
   padding: 3rem;
@@ -84,6 +85,9 @@ nav a:hover, nav a:active {
   font-size: 2.5rem;
 }
 
+.header .down:hover {
+  color: crimson;
+}
 
 /* MAIN STYLES */
 main {
@@ -121,7 +125,6 @@ main h2 {
   color: white;
 }
 
-
 /* PROJECTS STYLES */
 .projects {
   display: flex;
@@ -156,13 +159,14 @@ main h2 {
 
 .project-links a {
   font-size: 1rem;
-  padding: .5rem;
-  border-radius: .5rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
   border: 1px solid lightgray;
   box-shadow: 2px 2px 4px grey;
 }
 
-.project-links a:hover, .project-links a:active {
+.project-links a:hover,
+.project-links a:active {
   color: crimson;
   cursor: pointer;
   background-color: white;
@@ -179,31 +183,36 @@ main h2 {
   padding: 0 5%;
 }
 
-
 /* SKILLS STYLES */
 .skills {
   background-color: white;
 }
 
-.skills h3, .projects h3, .about h3 {
+.skills h3,
+.projects h3,
+.about h3 {
   width: 100%;
   font-size: 1.4rem;
 }
 
-.skills h4 {
-  background-color: lightgray;
-  margin: 2%;
-  width: 45%;
-  padding: 1%;
-  font-size: 1.2rem;
-  border-radius: 1rem;
-  text-align: center;
-  color: white;
-  text-shadow: 1px 1px 10px black;
-  text-transform: uppercase;
-  box-shadow: 2px 2px 8px grey;
+.skills ul {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
+.skills li {
+  width: 60%;
+  margin: 0.5rem;
+  padding: 1%;
+  font-size: 1.4rem;
+  text-align: center;
+  color: #000;
+  text-transform: uppercase;
+  box-shadow: 2px 2px 8px lightgrey;
+  list-style: none;
+}
 
 /* ABOUT STYLES */
 .about .titles {
@@ -233,10 +242,10 @@ main h2 {
 }
 
 .about-photo .portrait {
-  border-radius: 100rem;
+  border-radius: 0.5rem;
   max-height: 300px;
   max-width: 300px;
-  box-shadow: 1px 1px 8px black;
+  box-shadow: 1px 1px 8px grey;
   margin: 0 auto;
 }
 
@@ -255,7 +264,6 @@ main h2 {
 
 .about-photo a:hover {
   box-shadow: 1px 1px 8px crimson;
-  background-color: rgba(220, 20, 60, 0.252);
 }
 
 .about p {
@@ -271,6 +279,7 @@ main h2 {
   flex-direction: column;
   justify-content: space-evenly;
   width: 75%;
+  line-height: 1.5;
 }
 
 /* FOOTER STYLES */
@@ -301,9 +310,9 @@ main h2 {
   nav p {
     visibility: hidden;
   }
-  
+
   .header {
-    padding: .5rem;
+    padding: 0.5rem;
   }
 
   .header > div {
@@ -320,7 +329,8 @@ main h2 {
     margin-left: 2rem;
   }
 
-  .projects > div, .about > div {
+  .projects > div,
+  .about > div {
     flex-direction: column;
   }
 
@@ -337,6 +347,10 @@ main h2 {
     height: auto;
   }
 
+  .skills li {
+    width: 80%;
+  }
+
   .about > div > div {
     width: 100%;
   }
@@ -347,11 +361,15 @@ main h2 {
 }
 
 @media only screen and (max-width: 600px) {
-    main {
+  main {
     width: 100%;
   }
 
-    .container {
+  .skills li {
+    width: 100%;
+  }
+
+  .container {
     padding: 4%;
   }
 }

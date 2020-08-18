@@ -1,23 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="icon" href="./images/laptop.png" />
+    <title>Corbin Robb | Portfolio</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/ScrollToPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/ScrollTrigger.min.js"></script>
+    <script src="index.js" defer></script>
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="index.css">
-  <link rel="icon" href="./images/laptop.png">
-  <title>Corbin Robb | Portfolio</title>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/gsap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/ScrollToPlugin.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/ScrollTrigger.min.js"></script>
-  <script src="index.js"  defer></script>
-</head>
-
-<body>
+  <body>
     <nav>
       <p>Corbin Robb</p>
       <a>Home</a>
       <a>Projects</a>
+      <a>About</a>
+      <!-- <a>Contact</a> -->
     </nav>
     <main>
       <div class="header">
@@ -26,23 +31,34 @@
           <h3>Full Stack Web Developer</h3>
           <div class="links">
             <a target="blank" href="https://github.com/corbinrobb">
-              <img src="./images/GitHub-Mark/PNG/GitHub-Mark-Light-32px.png" alt="Github Icon" />
+              <img
+                src="./images/GitHub-Mark/PNG/GitHub-Mark-Light-32px.png"
+                alt="Github Icon"
+              />
             </a>
             <a target="blank" href="https://www.linkedin.com/in/corbinrobb/">
-              <img class="LI" src="./images/linkedin-3-32.png" alt="LinkedIn Icon" />
+              <img
+                class="LI"
+                src="./images/linkedin-3-32.png"
+                alt="LinkedIn Icon"
+              />
             </a>
           </div>
         </div>
-        <a class="down" href="#projects" id="projects">⌄</a>
+        <a class="down">⌄</a>
       </div>
       <div class="container projects">
-        <h3>Projects: </h3>
+        <h3>Projects:</h3>
         <div class="project">
           <div class="project-details">
             <div>
               <h4>Secret Family Recipes</h4>
               <p>App for writing and organizing recipes.</p>
-              <p>This project was a team effort, I was responsible for creating the CRUD operations and managing the state with Redux. I also helped with the layout and design of the application</p>
+              <p>
+                This project was a team effort, I was responsible for creating
+                the CRUD operations and managing the state with Redux. I also
+                helped with the layout and design of the application
+              </p>
               <br />
               <h4><strong>Skills I Used:</strong></h4>
               <ul>
@@ -54,8 +70,14 @@
               <br />
             </div>
             <div class="project-links">
-              <a target="blank" href="https://secret-family-recipes-1.now.sh/">Check it out</a>
-              <a target="blank" href="https://github.com/secret-family-recipe-1/front-end">See the code</a>
+              <a target="blank" href="https://secret-family-recipes-1.now.sh/"
+                >Check it out</a
+              >
+              <a
+                target="blank"
+                href="https://github.com/secret-family-recipe-1/front-end"
+                >See the code</a
+              >
             </div>
           </div>
           <a target="blank" href="https://secret-family-recipes-1.now.sh/">
@@ -63,14 +85,26 @@
           </a>
         </div>
         <div class="project">
-          <a target="blank" href="https://dev-desk-queue.now.sh/">
-            <img src="images/Screen Shot 2020-06-14 at 6.14.17 PM.png" />
+          <a
+            target="blank"
+            href="https://conways-game-of-life-ashen.vercel.app/"
+          >
+            <img src="images/Screen Shot 2020-08-18 at 9.24.33 AM.png" />
           </a>
           <div class="project-details">
             <div>
-              <h4>Dev Desk</h4>
-              <p>App made to create and organize help tickets for Lambda School students and team leads.</p>
-              <p>This was also a team project, I was responsible for creating the forms with validation, handling the login/logout funcitonality, setting up the ticket button funcitonality. I also helped with the layout and design for the application</p>
+              <h4>Conway's Game of Life</h4>
+              <p>
+                A recreation of Conway's Game of Life, the classic simulation of
+                cellular automaton
+              </p>
+              <p>
+                This is a simple React application that I made on my own. Its
+                evolution is determined by its initial state of alive and dead
+                cells. With every generation each cell will count how many
+                neighbors it has and by following a simple set of rules it will
+                either survive to the next generation or die.
+              </p>
               <br />
               <h4><strong>Skills I Used:</strong></h4>
               <ul>
@@ -81,35 +115,93 @@
               <br />
             </div>
             <div class="project-links">
-              <a target="blank" href="https://dev-desk-queue.now.sh/">Check it out</a>
-              <a target="blank" href="https://github.com/bw-dev-desk-queue-3/fe">See the code</a>
+              <a
+                target="blank"
+                href="https://conways-game-of-life-ashen.vercel.app/"
+                >Check it out</a
+              >
+              <a
+                target="blank"
+                href="https://github.com/corbinrobb/conways-game-of-life"
+                >See the code</a
+              >
             </div>
           </div>
+        </div>
+        <div class="project">
+          <div class="project-details">
+            <div>
+              <h4>Dev Desk</h4>
+              <p>
+                App made to create and organize help tickets for Lambda School
+                students and team leads.
+              </p>
+              <p>
+                The development of this app was a team effort. My individual
+                responsiblities were creating the forms with validation,
+                handling the login/logout functionality and setting up the
+                ticket buttons functionality. I also helped with the layout and
+                design for the application
+              </p>
+              <br />
+              <h4><strong>Skills I Used:</strong></h4>
+              <ul>
+                <li>React</li>
+                <li>JavaScript</li>
+                <li>HTML/CSS</li>
+              </ul>
+              <br />
+            </div>
+            <div class="project-links">
+              <a target="blank" href="https://dev-desk-queue.now.sh/"
+                >Check it out</a
+              >
+              <a target="blank" href="https://github.com/bw-dev-desk-queue-3/fe"
+                >See the code</a
+              >
+            </div>
+          </div>
+          <a target="blank" href="https://dev-desk-queue.now.sh/">
+            <img src="images/Screen Shot 2020-06-14 at 6.14.17 PM.png" />
+          </a>
         </div>
       </div>
       <div class="skills container">
         <h3>Skills</h3>
-        <h4>React</h4>
-        <h4>JavaScript</h4>
-        <h4>Redux</h4>
-        <h4>Python</h4>
-        <h4>HTML</h4>
-        <h4>CSS</h4>
-        <h4>Node</h4>
-        <h4>SQL</h4>
+        <ul>
+          <li><i class="devicon-react-original-wordmark colored"></i> React</li>
+          <li><i class="devicon-react-original colored"></i> Redux</li>
+          <li><i class="devicon-javascript-plain colored"></i> JavaScript</li>
+          <li><i class="devicon-python-plain colored"></i> Python</li>
+          <li><i class="devicon-nodejs-plain colored"></i> Node</li>
+          <li><i class="devicon-postgresql-plain colored"></i> SQL</li>
+          <li><i class="devicon-html5-plain colored"></i> HTML</li>
+          <li><i class="devicon-css3-plain colored"></i> CSS</li>
+          <li><i class="devicon-less-plain-wordmark colored"></i> LESS</li>
+        </ul>
       </div>
       <section class="about container">
         <h3>About</h3>
         <div>
           <div class="about-photo">
-            <img class="portrait" src="images/portrait.jpeg" alt="selfie of me" />
+            <img
+              class="portrait"
+              src="images/portrait.jpeg"
+              alt="selfie of me"
+            />
             <div class="links">
               <a target="blank" href="https://github.com/corbinrobb">
-                <img src="./images/GitHub-Mark/PNG/GitHub-Mark-32px.png"
-                  alt="Github Icon" />
+                <img
+                  src="./images/GitHub-Mark/PNG/GitHub-Mark-32px.png"
+                  alt="Github Icon"
+                />
               </a>
               <a target="blank" href="https://www.linkedin.com/in/corbinrobb/">
-                <img class="LI" src="./images/LI-In-Bug.png" alt="LinkedIn Icon" />
+                <img
+                  class="LI"
+                  src="./images/LI-In-Bug.png"
+                  alt="LinkedIn Icon"
+                />
               </a>
             </div>
           </div>
@@ -118,20 +210,17 @@
               <h3>Corbin Robb</h3>
               <h4>Located in Denver, Colorado</h4>
             </div>
-            <p> I am a determined and passionate Web Developer that enjoys creating
-              applications using
-              clean and efficient code. <br /> <br /> I have worked many years in customer
-              facing and
-              leadership roles and I use that experience to effectively communicate
-              technical
-              and creative ideas among both team members and clients. I am enthusiastic
-              about looking at projects from all angles and seeing the big picture of
-              where
-              they can go and I love helping them get there. <br /> <br /> I am mentally
-              flexible and can learn
-              what is needed and adapt my techniques/practices to best fit the role that I
-              am
-              needed in.
+            <p>
+              Determined and passionate Web Developer that enjoys creating
+              applications using clean and efficient code. <br />
+              <br />
+              Has worked many years in customer facing and leadership roles and
+              uses that experience to effectively communicate technical and
+              creative ideas among both team members and clients. <br />
+              <br />
+              Enthusiastic about looking at projects from all angles and seeing
+              the big picture of where they can go and enjoys helping them get
+              there.
             </p>
           </div>
         </div>
@@ -140,5 +229,5 @@
         <p>Site designed and developed by Corbin Robb - Photos from unsplash</p>
       </div>
     </main>
-</body>
+  </body>
 </html>
