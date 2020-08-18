@@ -313,7 +313,7 @@ main h2 {
   }
 
   nav p {
-    visibility: hidden;
+    display: none;
   }
 
   .header {
@@ -339,7 +339,8 @@ main h2 {
     flex-direction: column;
   }
 
-  .projects > div:first-of-type {
+  .projects > div:first-of-type,
+  .projects > div:last-of-type {
     flex-direction: column-reverse;
   }
 
@@ -370,11 +371,19 @@ main h2 {
     width: 100%;
   }
 
+  nav {
+    padding: 0;
+  }
+
   .skills li {
     width: 100%;
   }
 
   .container {
     padding: 4%;
+  }
+
+  .titles h3 {
+    width: 50%;
   }
 }
