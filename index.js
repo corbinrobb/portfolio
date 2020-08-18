@@ -21,6 +21,10 @@ aboutLink.addEventListener("click", () => {
   gsap.to(window, { duration: 1, scrollTo: { y: ".skills", offsetY: 40 } });
 });
 
+contactLink.addEventListener("click", () => {
+  gsap.to(window, { duration: 1, scrollTo: { y: ".contact", offsetY: 40 } });
+});
+
 downArrow.addEventListener("click", () => {
   gsap.to(window, { duration: 1, scrollTo: { y: ".projects", offsetY: 70 } });
 });
