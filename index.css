@@ -282,6 +282,11 @@ main h2 {
   line-height: 1.5;
 }
 
+.about .contact {
+  color: crimson;
+  cursor: pointer;
+}
+
 /* FOOTER STYLES */
 .footer {
   padding: 2rem;
