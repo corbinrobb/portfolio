@@ -35,17 +35,38 @@ gsap.from(downArrow, 1, { y: -300, autoAlpha: 0 });
 const projects = document.querySelectorAll(".project");
 
 gsap.from(projects[0], 1, {
-  scrollTrigger: projects[0],
+  scrollTrigger: {
+    trigger: projects[0],
+    start: "top center",
+  },
   x: -500,
   autoAlpha: 0,
 });
-gsap.from(projects[1], 1, { scrollTrigger: projects[1], x: 500, autoAlpha: 0 });
+gsap.from(projects[1], 1, {
+  scrollTrigger: {
+    trigger: projects[1],
+    start: "top center",
+  },
+  x: 500,
+  autoAlpha: 0,
+});
 gsap.from(projects[2], 1, {
-  scrollTrigger: projects[0],
+  scrollTrigger: {
+    trigger: projects[2],
+    start: "top center",
+  },
   x: -500,
   autoAlpha: 0,
 });
 
-gsap.from(".skills", 1, { scrollTrigger: ".skills", x: -500, autoAlpha: 0 });
+gsap.from(".skills", 1, {
+  scrollTrigger: { trigger: ".skills", start: "top center" },
+  x: -500,
+  autoAlpha: 0,
+});
 
-gsap.from(".about", 1, { scrollTrigger: ".about", x: 500, autoAlpha: 0 });
+gsap.from(".about", 1, {
+  scrollTrigger: { trigger: ".about", start: "top bottom" },
+  x: 500,
+  autoAlpha: 0,
+});
