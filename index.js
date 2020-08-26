@@ -61,12 +61,12 @@ gsap.from(projects[2], 1, {
 
 gsap.from(".skills", 1, {
   scrollTrigger: { trigger: ".skills", start: "top center" },
-  x: -500,
+  x: 500,
   autoAlpha: 0,
 });
 
 gsap.from(".about", 1, {
   scrollTrigger: { trigger: ".about", start: "top bottom" },
-  x: 500,
+  x: -500,
   autoAlpha: 0,
 });
