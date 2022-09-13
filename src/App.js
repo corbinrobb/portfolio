@@ -2,14 +2,14 @@ import About from './About';
 import './App.css';
 import Footer from './Footer';
 import Header from './Header';
-import NavBar from './NavBar';
+// import NavBar from './NavBar';
 import Showcase from './Showcase';
 import Tech from './Tech';
 
 function App() {
   return (
     <div className="App">
-      <NavBar />
+      {/* <NavBar /> */}
       <main>
         <Header />
         <Showcase />

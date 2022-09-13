@@ -29,16 +29,15 @@ const About = () => {
             <h4>Denver, CO</h4>
           </div>
           <p>
-            Determined and passionate Web Developer that enjoys creating
-            applications using clean and efficient code. <br />
-            <br />
-            Has worked many years in customer facing and leadership roles and
-            uses that experience to effectively communicate technical and
-            creative ideas among both team members and clients. <br />
-            <br />
-            Enthusiastic about looking at projects from all angles and seeing
-            the big picture of where they can go and enjoys helping them get
-            there.
+            Resourceful Web Developer that uses his passion and knowledge to
+            build sleek, responsive web applications and solve complex problems.
+          </p>
+          <p>
+            Well-versed in JavaScript, React, Node.js and SQL. Familiar with
+            TypeScript, TailwindCSS, and Python.
+          </p>
+          <p>
+            Enjoys drinking coffee, writing code, and occasionally working out.
           </p>
           <p class="contact-links">
             <a

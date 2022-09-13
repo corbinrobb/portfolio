@@ -3,7 +3,7 @@ import React from 'react';
 const Tech = () => {
   return (
     <div class="skills container">
-      <h3>Skills</h3>
+      <h3>Stack</h3>
       <ul>
         <li>
           <i class="devicon-react-original-wordmark colored"></i> React
